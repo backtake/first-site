@@ -158,6 +158,23 @@ body#contact {
     display: block;
     background-color: #336699;
     color: white;
+    text-align: center;
+}
+
+body#hobbies {
+    margin-bottom: -40px;
+    display: block;
+    background-color: #336699;
+    color: white;
+    font-family: rest;
+    font-size: 32px;
+}
+
+body#skills {
+    margin-bottom: -40px;
+    display: block;
+    background-color: #336699;
+    color: white;
 }
 
 .wrapper {
@@ -168,6 +185,10 @@ body#contact {
 #about-me {
     padding-bottom: 40px;
     background-color: #336699;
+}
+
+.about-me {
+    padding-bottom: 250px;
 }
 
 .gallery {
@@ -181,25 +202,13 @@ body#contact {
     color: black;
     margin-top: 40px;
 }
-.gallery p {
-    font-family: cursive;
-    font-size: 24px;
-    font-weight: 800;
-    text-transform: capitalize;
-    color: white;
-}
 
-.image-blueprint {
-
-    padding:35px;
-    margin:20px;
-    height:640px;
-    width:360px;
-    display: block;
+#gif1 {
+    text-align: center;
 }
 
 .skills {
-    padding-bottom: 300px;
+    padding-bottom: 250px;
 }
 
 .skills h1 {
@@ -207,6 +216,7 @@ body#contact {
     font-size: 30px;
     text-align: center;
     padding: 60px 0px;
+    color: white;
 }
 .skills ul{
     list-style-type: none;
@@ -220,11 +230,26 @@ body#contact {
     text-align: center;
 }
 
+.contact {
+    padding-bottom: 250px;
+}
+
 .contact h1 {
     text-align: center;
     font-family: rest;
     font-size: 40px;
     padding: 40px 0px;
+}
+
+.hobbies h1 {
+    text-align: center;
+    font-family: rest;
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+.hobbies {
+    padding-bottom: 250px;
 }
 
 textarea {
@@ -233,12 +258,12 @@ textarea {
 
 input, textarea {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 20px;
     padding: 20px 0px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: darkcyan;
-    width: 65%;
+    width: 45%;
     outline: none;
     display: block;
     margin-left: auto;
@@ -252,24 +277,6 @@ input, textarea {
     font-size: 30px;
     font-family: rest;
     color: white;
-}
-
-.find-me {
-    padding-bottom: 50px;
-}
-
-.find-me h1 {
-    padding: 40px 0px;
-    font-family: ls;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-}
-
-.find-me a img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 footer {

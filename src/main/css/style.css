@@ -21,6 +21,11 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    background-image: url('../resources/background.JPG');
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    /*margin-bottom: -40px;
+    display: block;*/
 }
 
 article,aside,details,figcaption,figure,
@@ -80,16 +85,6 @@ table {
     border-spacing:0;
 }
 
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
 input, select {
     vertical-align:middle;
 }
@@ -143,31 +138,13 @@ header nav ul li a{
 }
 
 body#about-me {
-    color: white;
-    text-align: center;
-}
-
-body#about-me h1 {
-    font-size: 64px;
-    font-family: rest;
-    text-align: center;
-}
-
-body#contact {
-    margin-bottom: -40px;
-    display: block;
-    background-color: #336699;
-    color: white;
-    text-align: center;
-}
-
-body#hobbies {
     margin-bottom: -40px;
     display: block;
     background-color: #336699;
     color: white;
     font-family: rest;
-    font-size: 32px;
+    font-size: 18px;
+    text-align: center;
 }
 
 body#skills {
@@ -177,34 +154,33 @@ body#skills {
     color: white;
 }
 
+
+body#hobbies {
+    margin-bottom: -40px;
+    display: block;
+    background-color: #336699;
+    color: white;
+    font-family: rest;
+    font-size: 26px;
+    background-size: 100% 250%;
+}
+
+
+body#contact {
+    margin-bottom: -40px;
+    display: block;
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    background-size: 100% 180%;
+}
 .wrapper {
     width: 960px;
     margin: 0 auto;
 }
 
-#about-me {
-    padding-bottom: 40px;
-    background-color: #336699;
-}
-
 .about-me {
     padding-bottom: 250px;
-}
-
-.gallery {
-    overflow: hidden;
-}
-
-.gallery h1 {
-    font-family: ls;
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    margin-top: 40px;
-}
-
-#gif1 {
-    text-align: center;
 }
 
 .skills {
@@ -213,7 +189,7 @@ body#skills {
 
 .skills h1 {
     font-family: rest;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding: 60px 0px;
     color: white;
@@ -235,17 +211,27 @@ body#skills {
 }
 
 .contact h1 {
-    text-align: center;
     font-family: rest;
     font-size: 40px;
-    padding: 40px 0px;
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
 }
 
 .hobbies h1 {
-    text-align: center;
     font-family: rest;
     font-size: 40px;
-    padding: 40px 0px;
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
+}
+
+.about-me h1 {
+    font-family: rest;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0px;
+    color: white;
 }
 
 .hobbies {
@@ -277,6 +263,37 @@ input, textarea {
     font-size: 30px;
     font-family: rest;
     color: white;
+}
+
+.judo
+{
+    text-align: right;
+    padding: 40px 0;
+}
+.judo img {
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    height: 30%;
+    width: 30%;
+}
+
+.bjj {
+    text-align: center;
+}
+
+.ski {
+    text-align: left;
+    padding: 40px 0;
+    top: 1400px;
+}
+
+.ski img {
+    position: absolute;
+    right: 150px;
+    top: 1000px;
+    height: 30%;
+    width: 30%;
 }
 
 footer {
